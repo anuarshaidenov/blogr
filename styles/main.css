@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Colors */
+/*Primary*/
+/* Neutral */
+/* Gradient */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn--cta {
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  padding: 1rem;
+  border-radius: 30px;
+  border: 1px transparent solid;
+}
+
+.btn--cta__primary {
+  background-color: white;
+  color: #ff3d54;
+}
+
+.btn--cta__secondary {
+  color: white;
+  border: 1px white solid;
+}
+
+/* Colors */
+/*Primary*/
+/* Neutral */
+/* Gradient */
+.navbar .container {
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar--links__main {
+  display: none;
+}
+
+.navbar--links__secondary {
+  display: none;
+}
+
+.navbar--logo {
+  width: 80px;
+  display: block;
+}
+
+.navbar--hamburger {
+  width: 1.8rem;
+  height: 1.1rem;
+}
+
+.section--header {
+  background: url(../images/bg-pattern-intro.svg) no-repeat center 10%, -webkit-gradient(linear, right bottom, left top, from(#ff3d54), to(#ff8f70));
+  background: url(../images/bg-pattern-intro.svg) no-repeat center 10%, linear-gradient(to left top, #ff3d54, #ff8f70);
+  padding: 2rem 0;
+  position: relative;
+}
+
+.section--header__hero-text {
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.section--header__hero-text--heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.section--header__hero-text--subheading {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-bottom: 3.4rem;
+}
+/*# sourceMappingURL=main.css.map */

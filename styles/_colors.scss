@@ -1,0 +1,37 @@
+/* Colors */
+
+/*Primary*/
+
+// Light red CTA background
+$color-light-red: hsl(356, 100%, 66%);
+// Very light red (CTA hover background):
+$color-very-light-red: hsl(355, 100%, 74%);
+// Very dark blue (headings):
+$color-very-dark-blue: hsl(208, 49%, 24%);
+
+/* Neutral */
+
+// White (text)
+$color-white: hsl(0, 0%, 100%);
+// Grayish blue (footer text)
+$color-grayish-blue: hsl(240, 2%, 79%);
+// Very dark grayish blue (body copy)
+$color-very-grayish-blue: hsl(207, 13%, 34%);
+// Very dark black blue (footer background)
+$color-very-dark-black-blue: hsl(240, 10%, 16%);
+
+/* Gradient */
+
+//Background gradient - Intro/CTA mobile nav:
+
+// Very light red
+$color-very-light-red: hsl(13, 100%, 72%);
+// Light red
+$color-light-red: hsl(353, 100%, 62%);
+
+//Background gradient - body:
+
+// Very dark gray blue:
+$color-very-dark-gray-blue: hsl(237, 17%, 21%);
+// Very dark desaturated blue
+$color-very-dark-desaturated-blue: hsl(237, 23%, 32%);

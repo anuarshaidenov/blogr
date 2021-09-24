@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Blogr]</title>
+
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="section--header">
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="navbar--logo"
+            ><img src="./images/logo.svg" alt="Logo"
+          /></a>
+          <img src="./images/icon-hamburger.svg" alt="Hamburger Icon" class="navbar--hamburger">
+
+          <ul class="navbar--links__main">
+            <li class="navbar--links__main--item">
+              <a href="#" class="navbar--links__main--item__link">Product</a>
+            </li>
+            <li class="navbar--links__main--item">
+              <a href="#" class="navbar--links__main--item__link">Company</a>
+            </li>
+            <li class="navbar--links__main--item">
+              <a href="#" class="navbar--links__main--item__link">Connect</a>
+            </li>
+          </ul>
+          <ul class="navbar--links__secondary">
+            <li class="navbar--links__secondary--item">
+              <a href="#" class="navbar--links__secondary--item__link">Login</a>
+            </li>
+            <li class="navbar--links__secondary--item">
+              <a
+                href="#"
+                class="
+                  navbar--links__secondary--item__link
+                  btn--cta btn--cta__primary
+                "
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="section--header__hero-text">
+          <h1 class="section--header__hero-text--heading">
+            A modern publishing platform
+          </h1>
+          <p class="section--header__hero-text--subheading">
+            Grow your audience and build your online brand
+          </p>
+          <a href="#" class="btn--cta btn--cta__primary">Start for Free</a>
+          <a href="#" class="btn--cta btn--cta__secondary">Learn more</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section--intro">
+      <h2 class="section--intro__heading--secondary heading--secondary">
+        Designed for the future
+      </h2>
+      <div class="container">
+        <div class="section--intro__left section--left">
+          <h3 class="section--intro__left--heading--tertiary heading--tertiary">
+            Introducing an extensible editor
+          </h3>
+          <p class="section--intro__left--paragraph paragraph--general">
+            Blogr features an exceedingly intuitive interface which lets you
+            focus on one thing: creating content. The editor supports management
+            of multiple blogs and allows easy manipulation of embeds such as
+            images, videos, and Markdown. Extensibility with plugins and themes
+            provide easy ways to add functionality or change the looks of a
+            blog.
+          </p>
+          <h3 class="section--intro__left--heading--tertiary heading--tertiary">
+            Robust content management
+          </h3>
+          <p class="section--intro__left--paragraph paragraph--general">
+            Flexible content management enables users to easily move through
+            posts. Increase the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality,
+            you’re in full control.
+          </p>
+        </div>
+        <div class="section--intro__right section--right">
+          <img
+            src="./images/illustration-editor-desktop.svg"
+            alt="Desktop Illustration"
+            class="section--intro__right--img"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="section--infrastructure">
+      <div class="container">
+        <div class="section--infrastructure__left section--left">
+          <img
+            src="./images/illustration-phones.svg"
+            alt="Phones Illustration"
+            class="section--infrastructure__left--img"
+          />
+        </div>
+        <div class="section--infrastructure__right section--right">
+          <h2
+            class="
+              section--infrastructure__right--heading--secondary
+              heading--secondary
+            "
+          >
+            State of the Art Infrastructure
+          </h2>
+          <p
+            class="section--infrastructure__right--paragraph paragraph--general"
+          >
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section--features">
+      <div class="container">
+        <div class="section--left">
+          <img
+            src="./images/illustration-laptop-desktop.svg"
+            alt="Laptop Illustration"
+            class="section--features__img"
+          />
+        </div>
+        <div class="section--right">
+          <h2 class="section--features__heading heading--tertiary">
+            Free, Open, Simple
+          </h2>
+          <p class="paragraph--general">
+            Blogr is a free and open source application backed by a large
+            community of helpful developers. It supports features such as code
+            syntax highlighting, RSS feeds, social media integration,
+            third-party commenting tools, and works seamlessly with Google
+            Analytics. The architecture is clean and is relatively easy to
+            learn.
+          </p>
+          <h2 class="section--features__heading heading--tertiary">
+            Powerful tooling
+          </h2>
+          <p class="paragraph--general">
+            Batteries included. We built a simple and straightforward CLI tool
+            that makes customization and deployment a breeze, but capable of
+            producing even the most complicated sites.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="section--footer">
+      <div class="container">
+        <img src="./images/logo.svg" alt="Logo" class="section--footer__img" />
+        <ul class="section--footer__ul">
+          <li class="section--footer__ul--li li--bold">
+            <a href="" class="section--footer__ul--li">Product</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Overview</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Pricing</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Marketplace</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Features</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Integrations</a>
+          </li>
+        </ul>
+        <ul class="section--footer__ul">
+          <li class="section--footer__ul--li li--bold">
+            <a href="" class="section--footer__ul--li">Company</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">About</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Team</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Blog</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Careers</a>
+          </li>
+        </ul>
+        <ul class="section--footer__ul">
+          <li class="section--footer__ul--li li--bold">
+            <a href="" class="section--footer__ul--li">Connect</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Contact</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Newsletter</a>
+          </li>
+          <li class="section--footer__ul--li">
+            <a href="" class="section--footer__ul--li">Linkedin</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
