@@ -6,11 +6,13 @@
 }
 
 .btn--cta {
-  font-weight: 500;
+  display: block;
+  font-weight: 700;
   font-family: "Ubuntu", sans-serif;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   border-radius: 30px;
   border: 1px transparent solid;
+  width: 46%;
 
   &__primary {
     background-color: $color-white;
@@ -21,4 +23,9 @@
     color: $color-white;
     border: 1px $color-white solid;
   }
+}
+
+.btn--flex {
+  display: flex;
+  justify-content: space-around;
 }

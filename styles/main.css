@@ -36,11 +36,13 @@ ul {
 }
 
 .btn--cta {
-  font-weight: 500;
+  display: block;
+  font-weight: 700;
   font-family: "Ubuntu", sans-serif;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   border-radius: 30px;
   border: 1px transparent solid;
+  width: 46%;
 }
 
 .btn--cta__primary {
@@ -53,12 +55,20 @@ ul {
   border: 1px white solid;
 }
 
+.btn--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 /* Colors */
 /*Primary*/
 /* Neutral */
 /* Gradient */
 .navbar .container {
-  padding: 2rem 0;
+  padding: 2.5rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,16 +99,20 @@ ul {
 }
 
 .section--header {
-  background: url(../images/bg-pattern-intro.svg) no-repeat center 10%, -webkit-gradient(linear, right bottom, left top, from(#ff3d54), to(#ff8f70));
-  background: url(../images/bg-pattern-intro.svg) no-repeat center 10%, linear-gradient(to left top, #ff3d54, #ff8f70);
-  padding: 2rem 0;
+  background: url(../images/bg-pattern-intro.svg) no-repeat center 10%, -webkit-gradient(linear, left top, left bottom, color-stop(20%, #ff8f70), color-stop(80%, #ff3d54));
+  background: url(../images/bg-pattern-intro.svg) no-repeat center 10%, linear-gradient(to bottom, #ff8f70 20%, #ff3d54 80%);
+  background-position: 37% 37%;
+  background-size: 350%;
+  background-repeat: no-repeat;
   position: relative;
+  border-bottom-left-radius: 100px;
 }
 
 .section--header__hero-text {
   color: white;
   text-align: center;
   margin-top: 3rem;
+  padding-bottom: 10rem;
 }
 
 .section--header__hero-text--heading {

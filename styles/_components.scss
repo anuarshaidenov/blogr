@@ -2,7 +2,7 @@
 
 .navbar {
   .container {
-    padding: 2rem 0;
+    padding: 2.5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,14 +29,18 @@
 
 .section--header {
   background: url(../images/bg-pattern-intro.svg) no-repeat center 10%,
-    linear-gradient(to left top, $color-light-red, $color-very-light-red);
-  padding: 2rem 0;
+    linear-gradient(to bottom, $color-very-light-red 20%, $color-light-red 80%);
+  background-position: 37% 37%;
+  background-size: 350%;
+  background-repeat: no-repeat;
   position: relative;
+  border-bottom-left-radius: 100px;
 
   &__hero-text {
     color: white;
     text-align: center;
     margin-top: 3rem;
+    padding-bottom: 10rem;
 
     &--heading {
       font-size: 2.4rem;
