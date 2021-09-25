@@ -156,6 +156,7 @@ section {
 
 .section--intro {
   padding-top: 8rem;
+  overflow: hidden;
 }
 
 .section--intro .container {
