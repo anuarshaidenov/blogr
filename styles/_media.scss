@@ -1,0 +1,81 @@
+@media (min-width: 1000px) {
+  .btn--cta {
+    width: auto;
+    padding: 1em 1.8em;
+  }
+  .navbar {
+    &--hamburger {
+      display: none;
+    }
+
+    .container {
+      justify-content: flex-start;
+    }
+
+    &--links {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+      color: $color-white;
+      &__main {
+        display: flex;
+        align-items: center;
+        margin-left: 4rem;
+
+        &--item {
+          margin-right: 3rem;
+          position: relative;
+
+          &::after {
+            position: absolute;
+            right: -15px;
+            top: 0;
+            content: url("../images/icon-arrow-light.svg");
+          }
+        }
+      }
+
+      &__secondary {
+        display: flex;
+        align-items: center;
+
+        &--item {
+          margin-right: 1rem;
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .section--header {
+    background: url(../images/bg-pattern-intro.svg) no-repeat center 10%,
+      linear-gradient(to right, $color-very-light-red 20%, $color-light-red 60%);
+    background-position: 26% 53%;
+    background-size: 235%;
+
+    &__hero-text {
+      &--heading {
+        font-size: 4.5rem;
+      }
+      &--subheading {
+        font-size: 1.5rem;
+      }
+
+      .btn--flex {
+        justify-content: center;
+
+        .btn--cta {
+          &__primary {
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+  .heading--secondary {
+    font-size: 3rem;
+  }
+}

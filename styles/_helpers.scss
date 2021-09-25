@@ -3,13 +3,14 @@
 .container {
   width: 90%;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .btn--cta {
   display: block;
   font-weight: 700;
   font-family: "Ubuntu", sans-serif;
-  padding: 1rem 1.5rem;
+  padding: 1em 1.5em;
   border-radius: 30px;
   border: 1px transparent solid;
   width: 46%;
@@ -53,4 +54,13 @@
 .attribution {
   background-color: $color-very-dark-black-blue;
   color: white;
+}
+
+.max-width-illustration {
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.margin-container-7rem {
+  margin-top: 7rem;
 }

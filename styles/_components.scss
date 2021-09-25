@@ -1,6 +1,8 @@
 @import "colors";
 
 .navbar {
+  font-family: "Ubuntu" sans-serif;
+  font-weight: 500;
   .container {
     padding: 2.5rem 0;
     display: flex;
@@ -8,12 +10,7 @@
     align-items: center;
   }
   &--links {
-    &__main {
-      display: none;
-    }
-    &__secondary {
-      display: none;
-    }
+    display: none;
   }
 
   &--logo {
@@ -103,7 +100,6 @@
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    max-width: 25rem;
   }
 
   &__right {
