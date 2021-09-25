@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+/* Colors */
+/*Primary*/
+/* Neutral */
+/* Gradient */
 *,
 *::before,
 *::after {
@@ -24,6 +28,15 @@ a {
 
 ul {
   list-style: none;
+}
+
+h2,
+h3 {
+  color: #1f3f5b;
+}
+
+section {
+  text-align: center;
 }
 
 /* Colors */
@@ -61,6 +74,20 @@ ul {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.heading--secondary {
+  font-size: 1.9rem;
+}
+
+.heading--tertiary {
+  font-size: 1.9rem;
+  margin: 2rem 0;
+}
+
+.paragraph--general {
+  margin-top: 1em;
+  font-size: 1.15rem;
 }
 
 /* Colors */
@@ -125,5 +152,36 @@ ul {
   font-size: 1.2rem;
   line-height: 1.2;
   margin-bottom: 3.4rem;
+}
+
+.section--intro {
+  padding-top: 8rem;
+}
+
+.section--intro .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.section--intro__heading--secondary {
+  margin-bottom: 5rem;
+}
+
+.section--intro__left {
+  margin-top: 4rem;
+}
+
+.section--intro__right--img-desktop {
+  display: none;
+}
+
+.section--intro__right--img-mobile {
+  -webkit-transform: scale(1.27);
+          transform: scale(1.27);
 }
 /*# sourceMappingURL=main.css.map */

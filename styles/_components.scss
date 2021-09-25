@@ -55,3 +55,29 @@
     }
   }
 }
+
+.section--intro {
+  padding-top: 8rem;
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  &__heading--secondary {
+    margin-bottom: 5rem;
+  }
+
+  &__left {
+    margin-top: 4rem;
+  }
+
+  &__right {
+    &--img-desktop {
+      display: none;
+    }
+
+    &--img-mobile {
+      transform: scale(1.27);
+    }
+  }
+}
