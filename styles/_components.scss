@@ -97,9 +97,6 @@
   padding: 13rem 0 8rem;
   margin-top: 15rem;
 
-  .container {
-  }
-
   &__left {
     position: absolute;
     top: -30%;
@@ -137,6 +134,38 @@
     &--paragraph {
       margin-bottom: 3rem;
       &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.section--footer {
+  background-color: $color-very-dark-black-blue;
+  padding: 5rem 0;
+  color: $color-grayish-blue;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  border-top-right-radius: 100px;
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__link {
+    display: block;
+    width: 6rem;
+    margin: 0 auto 3rem;
+  }
+
+  &__ul {
+    margin-bottom: 2rem;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    &--li {
+      margin-bottom: 0.7rem;
+      :last-of-type {
         margin-bottom: 0;
       }
     }

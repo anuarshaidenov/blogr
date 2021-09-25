@@ -90,6 +90,17 @@ section {
   font-size: 1.14rem;
 }
 
+.li--bold {
+  font-weight: 400;
+  margin-bottom: 1.5rem !important;
+  color: white;
+}
+
+.attribution {
+  background-color: #25252d;
+  color: white;
+}
+
 /* Colors */
 /*Primary*/
 /* Neutral */
@@ -236,6 +247,47 @@ section {
 }
 
 .section--features__right--paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.section--footer {
+  background-color: #25252d;
+  padding: 5rem 0;
+  color: #c8c8cb;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  border-top-right-radius: 100px;
+}
+
+.section--footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section--footer__link {
+  display: block;
+  width: 6rem;
+  margin: 0 auto 3rem;
+}
+
+.section--footer__ul {
+  margin-bottom: 2rem;
+}
+
+.section--footer__ul:last-of-type {
+  margin-bottom: 0;
+}
+
+.section--footer__ul--li {
+  margin-bottom: 0.7rem;
+}
+
+.section--footer__ul--li :last-of-type {
   margin-bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */
