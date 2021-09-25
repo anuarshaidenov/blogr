@@ -185,4 +185,31 @@ section {
   -webkit-transform: scale(1.27);
           transform: scale(1.27);
 }
+
+.section--infrastructure {
+  background: url(../images/bg-pattern-circles.svg) 50% -15rem/37rem no-repeat, -webkit-gradient(linear, left top, left bottom, from(#2c2d3f), to(#3f4164));
+  background: url(../images/bg-pattern-circles.svg) 50% -15rem/37rem no-repeat, linear-gradient(to bottom, #2c2d3f, #3f4164);
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  color: white;
+  position: relative;
+  padding: 13rem 0 8rem;
+  margin-top: 15rem;
+}
+
+.section--infrastructure__left {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  max-width: 25rem;
+}
+
+.section--infrastructure__right--heading--secondary {
+  color: white;
+  font-size: 2.3rem;
+  margin-bottom: 1.1em;
+}
 /*# sourceMappingURL=main.css.map */
