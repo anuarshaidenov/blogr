@@ -117,3 +117,28 @@
     }
   }
 }
+
+.section--features {
+  overflow: hidden;
+  padding: 10rem 0 7rem;
+  &__left {
+    &--img--desktop {
+      display: none;
+    }
+
+    &--img--mobile {
+      transform: scale(1.5);
+    }
+  }
+
+  &__right {
+    margin-top: 5rem;
+
+    &--paragraph {
+      margin-bottom: 3rem;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -87,7 +87,7 @@ section {
 
 .paragraph--general {
   margin-top: 1em;
-  font-size: 1.15rem;
+  font-size: 1.14rem;
 }
 
 /* Colors */
@@ -211,5 +211,31 @@ section {
   color: white;
   font-size: 2.3rem;
   margin-bottom: 1.1em;
+}
+
+.section--features {
+  overflow: hidden;
+  padding: 10rem 0 7rem;
+}
+
+.section--features__left--img--desktop {
+  display: none;
+}
+
+.section--features__left--img--mobile {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.section--features__right {
+  margin-top: 5rem;
+}
+
+.section--features__right--paragraph {
+  margin-bottom: 3rem;
+}
+
+.section--features__right--paragraph:last-of-type {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */
