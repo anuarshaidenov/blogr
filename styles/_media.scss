@@ -85,7 +85,7 @@
   }
 
   .heading--tertiary {
-    font-size: 1.75rem;
+    font-size: 1.98rem;
   }
 
   .paragraph--general {
@@ -162,5 +162,30 @@
   }
 
   .section--features {
+    padding: 10rem 0 20rem;
+    &__left {
+      position: absolute;
+      left: -24.5rem;
+      top: -5rem;
+
+      &--img--mobile {
+        display: none;
+      }
+      &--img--desktop {
+        display: block;
+      }
+    }
+
+    &__right {
+      width: 50%;
+      text-align: left;
+      align-self: flex-end;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
   }
 }

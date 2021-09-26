@@ -390,7 +390,7 @@ section {
     font-size: 3rem;
   }
   .heading--tertiary {
-    font-size: 1.75rem;
+    font-size: 1.98rem;
   }
   .paragraph--general {
     font-size: 1.2rem;
@@ -459,6 +459,36 @@ section {
             transform: translateX(0);
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
+  }
+  .section--features {
+    padding: 10rem 0 20rem;
+  }
+  .section--features__left {
+    position: absolute;
+    left: -24.5rem;
+    top: -5rem;
+  }
+  .section--features__left--img--mobile {
+    display: none;
+  }
+  .section--features__left--img--desktop {
+    display: block;
+  }
+  .section--features__right {
+    width: 50%;
+    text-align: left;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .section--features .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
   }
 }
 /*# sourceMappingURL=main.css.map */
