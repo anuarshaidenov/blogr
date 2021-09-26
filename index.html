@@ -34,7 +34,21 @@
           <a href="#" class="navbar--logo"
             ><img src="./images/logo.svg" alt="Logo"
           /></a>
-          <img src="./images/icon-hamburger.svg" alt="Hamburger Icon" class="navbar--hamburger">
+          <img src="./images/icon-hamburger.svg" alt="Hamburger Icon" id="hamburger" class="navbar--hamburger">
+          <img src="./images/icon-close.svg" alt="Close Icon" id="close-icon" class="navbar--hamburger hidden">
+
+          <div class="backdrop hidden"></div>
+          <div class="mobile-menu hidden">
+            <ul class="mobile-menu--links__main">
+              <li class="mobile-menu--links__main--link"><a href="#" class="mobile-menu--links__main--link__a">Product</a></li>
+              <li class="mobile-menu--links__main--link"><a href="#" class="mobile-menu--links__main--link__a">Company</a></li>
+              <li class="mobile-menu--links__main--link"><a href="#" class="mobile-menu--links__main--link__a">Connect</a></li>
+            </ul>
+            <ul class="mobile-menu--links__secondary">
+              <li class="mobile-menu--links__secondary--link"><a href="#" class="mobile-menu--links__secondary--link__a">Login</a></li>
+              <li class="mobile-menu--links__secondary--link"><a href="#" class="mobile-menu--links__secondary--link__a btn--cta btn--cta__primary">Sign Up</a></li>
+            </ul>
+          </div>
 
           <div class="navbar--links">
             <ul class="navbar--links__main">
@@ -257,6 +271,6 @@
         >Frontend Mentor</a
       >. Coded by <a target="_blank" href="https://github.com/anuarshaidenov/">Anuar Shaidenov</a>.
     </div>
-
+    <script src="./index.js"></script>
   </body>
 </html>
