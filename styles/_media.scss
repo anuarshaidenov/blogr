@@ -43,14 +43,62 @@
         margin-left: 4rem;
 
         &--item {
-          margin-right: 3rem;
+          //   &:hover {
+          //     font-weight: 900;
+          //     text-decoration: underline 2px;
+          //     &::after {
+          //       transform: rotate(180deg);
+          //       top: 3px !important;
+          //     }
+          //     & > ul {
+          //       display: block;
+          //     }
+          //   }
+
           position: relative;
 
-          &::after {
-            position: absolute;
-            right: -15px;
-            top: 0;
-            content: url("../images/icon-arrow-light.svg");
+          &:hover {
+            & > a {
+              font-weight: 900;
+              text-decoration: underline 2px;
+              &::after {
+                transform: rotate(180deg);
+                top: 3px !important;
+              }
+            }
+            & > div > ul {
+              display: block;
+            }
+          }
+
+          &__sublinks {
+            border-radius: 5px;
+            padding: 2rem;
+            padding-right: 4rem;
+
+            background-color: white;
+            color: black;
+
+            &--li {
+              margin-bottom: 0.7rem;
+
+              a {
+                &:hover {
+                  font-weight: 700;
+                }
+              }
+            }
+          }
+
+          &__link {
+            margin-right: 3rem;
+            position: relative;
+            &::after {
+              position: absolute;
+              right: -15px;
+              top: -2px;
+              content: url("../images/icon-arrow-light.svg");
+            }
           }
         }
       }

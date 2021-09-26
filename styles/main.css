@@ -53,6 +53,25 @@ section {
   display: none;
 }
 
+.opened-link {
+  opacity: 0.7;
+}
+
+.opened-link::after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  top: 0px !important;
+}
+
+.dummy {
+  height: 20px;
+}
+
+.sublinks-container {
+  position: absolute;
+  left: -25px;
+}
+
 .btn--cta {
   display: block;
   font-weight: 700;
@@ -176,7 +195,7 @@ section {
 .navbar .mobile-menu--links__main {
   width: 90%;
   margin: 0 auto;
-  border-bottom: 1px solid #c8c8cb;
+  border-bottom: 1px solid rgba(200, 200, 203, 0.3);
 }
 
 .navbar .mobile-menu--links__main--link__a {
@@ -188,6 +207,18 @@ section {
   right: -15px;
   top: -3px;
   content: url("../images/icon-arrow-dark.svg");
+}
+
+.navbar .mobile-menu--links__main--sublinks {
+  font-size: 0.9rem;
+  border-radius: 5px;
+  background-color: rgba(200, 200, 203, 0.3);
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.navbar .mobile-menu--links__main--sublinks a {
+  opacity: 0.7;
 }
 
 .navbar .mobile-menu--links__secondary {
@@ -428,13 +459,42 @@ section {
     margin-left: 4rem;
   }
   .navbar--links__main--item {
+    position: relative;
+  }
+  .navbar--links__main--item:hover > a {
+    font-weight: 900;
+    -webkit-text-decoration: underline 2px;
+            text-decoration: underline 2px;
+  }
+  .navbar--links__main--item:hover > a::after {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    top: 3px !important;
+  }
+  .navbar--links__main--item:hover > div > ul {
+    display: block;
+  }
+  .navbar--links__main--item__sublinks {
+    border-radius: 5px;
+    padding: 2rem;
+    padding-right: 4rem;
+    background-color: white;
+    color: black;
+  }
+  .navbar--links__main--item__sublinks--li {
+    margin-bottom: 0.7rem;
+  }
+  .navbar--links__main--item__sublinks--li a:hover {
+    font-weight: 700;
+  }
+  .navbar--links__main--item__link {
     margin-right: 3rem;
     position: relative;
   }
-  .navbar--links__main--item::after {
+  .navbar--links__main--item__link::after {
     position: absolute;
     right: -15px;
-    top: 0;
+    top: -2px;
     content: url("../images/icon-arrow-light.svg");
   }
   .navbar--links__secondary {
