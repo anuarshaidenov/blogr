@@ -490,5 +490,29 @@ section {
             flex-direction: column;
     position: relative;
   }
+  .li--bold {
+    margin-bottom: 2rem !important;
+  }
+  .section--footer {
+    margin: 0;
+    text-align: left;
+  }
+  .section--footer .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .section--footer__link {
+    margin: 0;
+    margin-right: 10rem;
+  }
+  .section--footer__ul {
+    margin: 0;
+    margin-right: 15rem;
+  }
+  .section--footer__ul:last-of-type {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */

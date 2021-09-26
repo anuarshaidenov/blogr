@@ -188,4 +188,29 @@
       position: relative;
     }
   }
+
+  .li--bold {
+    margin-bottom: 2rem !important;
+  }
+
+  .section--footer {
+    margin: 0;
+    text-align: left;
+    .container {
+      flex-direction: row;
+    }
+
+    &__link {
+      margin: 0;
+      margin-right: 10rem;
+    }
+
+    &__ul {
+      margin: 0;
+      margin-right: 15rem;
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
 }
