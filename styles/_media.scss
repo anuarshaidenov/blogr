@@ -1,4 +1,10 @@
-@media (min-width: 1000px) {
+@media (min-width: 375px) {
+  .section--infrastructure__left {
+    top: -24rem;
+  }
+}
+
+@media (min-width: 1024px) {
   html,
   body {
     max-width: 100%;
@@ -97,7 +103,7 @@
   }
 
   .max-width-illustration {
-    max-width: none;
+    max-width: 53rem;
   }
 
   .section--intro {
@@ -123,8 +129,8 @@
         display: block;
       }
       position: absolute;
-      right: -25rem;
-      top: -26%;
+      right: -28rem;
+      top: -20%;
     }
   }
 
@@ -147,10 +153,6 @@
       &--heading--secondary {
         font-size: 2.65rem;
       }
-
-      &--paragraph {
-        color: $color-white;
-      }
     }
 
     &__left {
@@ -162,10 +164,10 @@
   }
 
   .section--features {
-    padding: 10rem 0 20rem;
+    padding: 10rem 0 13rem;
     &__left {
       position: absolute;
-      left: -24.5rem;
+      left: -27.5rem;
       top: -5rem;
 
       &--img--mobile {
@@ -212,5 +214,15 @@
         margin: 0;
       }
     }
+  }
+}
+
+@media (min-width: 1120px) {
+  .section--intro__right {
+    right: -23rem;
+  }
+
+  .section--features__left {
+    left: -24.5rem;
   }
 }

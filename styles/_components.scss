@@ -90,13 +90,17 @@
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
   color: $color-white;
-  position: relative;
+  // position: relative;
   padding: 13rem 0 8rem;
   margin-top: 15rem;
 
+  .container {
+    position: relative;
+  }
+
   &__left {
     position: absolute;
-    top: -30%;
+    top: -22rem;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -107,6 +111,9 @@
       color: white;
       font-size: 2.3rem;
       margin-bottom: 1.1em;
+    }
+    &--paragraph {
+      color: $color-white;
     }
   }
 }

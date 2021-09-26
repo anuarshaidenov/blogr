@@ -215,14 +215,17 @@ section {
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
   color: white;
-  position: relative;
   padding: 13rem 0 8rem;
   margin-top: 15rem;
 }
 
+.section--infrastructure .container {
+  position: relative;
+}
+
 .section--infrastructure__left {
   position: absolute;
-  top: -30%;
+  top: -22rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -233,6 +236,10 @@ section {
   color: white;
   font-size: 2.3rem;
   margin-bottom: 1.1em;
+}
+
+.section--infrastructure__right--paragraph {
+  color: white;
 }
 
 .section--features {
@@ -302,7 +309,13 @@ section {
   margin-bottom: 0;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 375px) {
+  .section--infrastructure__left {
+    top: -24rem;
+  }
+}
+
+@media (min-width: 1024px) {
   html,
   body {
     max-width: 100%;
@@ -399,7 +412,7 @@ section {
     width: 50%;
   }
   .max-width-illustration {
-    max-width: none;
+    max-width: 53rem;
   }
   .section--intro {
     text-align: left;
@@ -417,8 +430,8 @@ section {
   }
   .section--intro__right {
     position: absolute;
-    right: -25rem;
-    top: -26%;
+    right: -28rem;
+    top: -20%;
   }
   .section--intro__right--img-mobile {
     display: none;
@@ -449,9 +462,6 @@ section {
   .section--infrastructure__right--heading--secondary {
     font-size: 2.65rem;
   }
-  .section--infrastructure__right--paragraph {
-    color: white;
-  }
   .section--infrastructure__left {
     top: -9rem;
     left: 0;
@@ -461,11 +471,11 @@ section {
             transform: scale(0.8);
   }
   .section--features {
-    padding: 10rem 0 20rem;
+    padding: 10rem 0 13rem;
   }
   .section--features__left {
     position: absolute;
-    left: -24.5rem;
+    left: -27.5rem;
     top: -5rem;
   }
   .section--features__left--img--mobile {
@@ -513,6 +523,15 @@ section {
   }
   .section--footer__ul:last-of-type {
     margin: 0;
+  }
+}
+
+@media (min-width: 1120px) {
+  .section--intro__right {
+    right: -23rem;
+  }
+  .section--features__left {
+    left: -24.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
