@@ -12,8 +12,6 @@
 
   .backdrop {
     position: fixed;
-    background: black;
-    opacity: 0.5;
     width: 100vw;
     height: 100vh;
     left: 0;
@@ -245,7 +243,18 @@
 
     &--li {
       margin-bottom: 0.7rem;
-      :last-of-type {
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:first-of-type {
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      &:last-of-type {
         margin-bottom: 0;
       }
     }

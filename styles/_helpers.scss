@@ -39,11 +39,21 @@
   &__primary {
     background-color: $color-white;
     color: $color-light-red;
+
+    &:hover {
+      background-color: hsl(355, 100%, 74%);
+      color: $color-white;
+    }
   }
 
   &__secondary {
     color: $color-white;
     border: 1px $color-white solid;
+
+    &:hover {
+      background-color: $color-white;
+      color: hsl(355, 100%, 74%);
+    }
   }
 }
 
